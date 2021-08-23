@@ -39,7 +39,9 @@ func (e *Coraza) ServeHTTP(rw http.ResponseWriter, req *http.Request) {
 	tx := e.waf.NewTransaction()
 	it, err := tx.ProcessRequest(req)
 	//TODO TEMPORARY FIX FOR A CORAZA BUG
-	req.Body = io.NopCloser(strings.NewReader(""))
+	if req.Body == nil {
+		req.Body = io.NopCloser(strings.NewReader(""))
+	}
 	if it != nil || err != nil {
 		errorPage(rw, tx)
 		return
