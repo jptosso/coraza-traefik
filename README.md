@@ -1,0 +1,1 @@
+This is a traefik plugin experiment for Coraza, it requires testing.
