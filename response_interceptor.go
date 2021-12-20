@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	coraza "github.com/jptosso/coraza-waf"
+	"github.com/jptosso/coraza-waf/v2"
 )
 
 type HTTPResponseInterceptor struct {

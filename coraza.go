@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"strings"
 
-	coraza "github.com/jptosso/coraza-waf"
+	"github.com/jptosso/coraza-waf/v2"
 )
 
 // Config the plugin configuration.

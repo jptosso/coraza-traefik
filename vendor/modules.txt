@@ -1,54 +1,25 @@
-# github.com/antchfx/xmlquery v1.3.6
-github.com/antchfx/xmlquery
-# github.com/antchfx/xpath v1.1.10
-github.com/antchfx/xpath
-# github.com/golang/groupcache v0.0.0-20200121045136-8c9f03a8e57e
-github.com/golang/groupcache/lru
 # github.com/jptosso/coraza-waf v1.0.0-beta.5
 ## explicit
-github.com/jptosso/coraza-waf
-github.com/jptosso/coraza-waf/loggers
-github.com/jptosso/coraza-waf/persistence
-github.com/jptosso/coraza-waf/transformations
-github.com/jptosso/coraza-waf/utils
-github.com/jptosso/coraza-waf/utils/regex
-# github.com/oschwald/geoip2-golang v1.5.0
-github.com/oschwald/geoip2-golang
-# github.com/oschwald/maxminddb-golang v1.8.0
-github.com/oschwald/maxminddb-golang
-# github.com/pcktdmp/cef v0.2.0
-github.com/pcktdmp/cef/cefevent
-# go.uber.org/atomic v1.7.0
+# github.com/jptosso/coraza-waf/v2 v2.0.0-beta.6.0.20211217191841-efdf8ccbcd9d
+## explicit
+github.com/jptosso/coraza-waf/v2
+github.com/jptosso/coraza-waf/v2/bodyprocessors
+github.com/jptosso/coraza-waf/v2/geo
+github.com/jptosso/coraza-waf/v2/loggers
+github.com/jptosso/coraza-waf/v2/types
+github.com/jptosso/coraza-waf/v2/types/variables
+github.com/jptosso/coraza-waf/v2/utils/strings
+github.com/jptosso/coraza-waf/v2/utils/url
+# go.uber.org/atomic v1.9.0
+## explicit
 go.uber.org/atomic
-# go.uber.org/multierr v1.6.0
+# go.uber.org/multierr v1.7.0
+## explicit
 go.uber.org/multierr
-# go.uber.org/zap v1.19.0
+# go.uber.org/zap v1.19.1
 go.uber.org/zap
 go.uber.org/zap/buffer
 go.uber.org/zap/internal/bufferpool
 go.uber.org/zap/internal/color
 go.uber.org/zap/internal/exit
 go.uber.org/zap/zapcore
-# golang.org/x/net v0.0.0-20200813134508-3edf25e44fcc
-golang.org/x/net/html
-golang.org/x/net/html/atom
-golang.org/x/net/html/charset
-# golang.org/x/sys v0.0.0-20200323222414-85ca7c5b95cd
-golang.org/x/sys/unix
-golang.org/x/sys/windows
-# golang.org/x/text v0.3.0
-golang.org/x/text/encoding
-golang.org/x/text/encoding/charmap
-golang.org/x/text/encoding/htmlindex
-golang.org/x/text/encoding/internal
-golang.org/x/text/encoding/internal/identifier
-golang.org/x/text/encoding/japanese
-golang.org/x/text/encoding/korean
-golang.org/x/text/encoding/simplifiedchinese
-golang.org/x/text/encoding/traditionalchinese
-golang.org/x/text/encoding/unicode
-golang.org/x/text/internal/tag
-golang.org/x/text/internal/utf8internal
-golang.org/x/text/language
-golang.org/x/text/runes
-golang.org/x/text/transform
